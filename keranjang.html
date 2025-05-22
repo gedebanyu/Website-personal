@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GamingStore_banyu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">GamingStore</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="produk.html">Produk</a></li>
+          <li><a href="pesanansaya.html">Pesanan Saya</a></li>
+          <li><a href="keranjang.html">Keranjang</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+<section class="cart" id="cart">
+  <h2 class="section-title">Keranjang Belanja</h2>
+
+  <div class="cart-container">
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Produk</th>
+          <th>Nama</th>
+          <th>Harga</th>
+          <th>Jumlah</th>
+          <th>Total</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="img/produk1.jpg" alt="Produk 1" class="cart-img" /></td>
+          <td>Keyboard Gaming RGB</td>
+          <td>Rp500.000</td>
+          <td>
+            <input type="number" value="1" min="1" class="quantity-input" />
+          </td>
+          <td>Rp500.000</td>
+          <td><button class="btn-hapus">Hapus</button></td>
+        </tr>
+        <!-- Tambahkan baris produk lain di sini -->
+      </tbody>
+    </table>
+
+    <div class="cart-summary">
+      <p><strong>Total Belanja: </strong>Rp500.000</p>
+      <button class="btn-checkout">Lanjut ke Pembayaran</button>
+    </div>
+  </div>
+</section>
+
+
+
+    <footer class="footer">
+      <p>&copy; 2025 GamingStore. banyu_pangestu@gmail.com</p>
+    </footer>
+  </body>
+</html>
